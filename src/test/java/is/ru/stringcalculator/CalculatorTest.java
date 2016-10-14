@@ -20,4 +20,11 @@ public class CalculatorTest{
 	 public void testTwoNumbers() {
 	 	assertEquals(3, Calculator.add("1,2"));
 	 }
+
+	 @Test
+	 public void testXNumbers() {
+	 	assertEquals(6, Calculator.add("1,2,3"));
+		assertEquals(10, Calculator.add("1,2,3,4"));
+		assertEquals(28, Calculator.add("1,2,3,4,5,6,7"));
+	 }
 }
