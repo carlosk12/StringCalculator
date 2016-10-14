@@ -9,7 +9,7 @@ public class Calculator {
 			return toInt(numbers[0]) + toInt(numbers[1]);
 		}
 		else{
-			return 1;
+			return toInt(text);
 		}
 	}
 
